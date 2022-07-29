@@ -9,17 +9,19 @@ function inicio(){
 }
 
 function accion1(){
-  document.querySelector(".caja").innerHTML="Hola mundo!";
+    document.querySelector(".caja").innerHTML="Hola mundo!";
 }
 
 function accion2(){
-  document.querySelector(".caja").innerHTML="<img src='img/img1.jpg' />";
+    document.querySelector(".caja").innerHTML="<img src='img/img1.jpg' />";
 }
 
 function accion3(){
-  document.querySelector(".caja").insertAdjacentHTML("beforeend","<button>Boton</button>");
+    document.querySelector(".caja").insertAdjacentHTML("beforeend","<button>Boton</button>");
 }
 
 function accion4(){
-  document.querySelector(".caja").innerHTML=" ";
+    document.querySelector(".caja").innerHTML=" ";
 }
+
+
